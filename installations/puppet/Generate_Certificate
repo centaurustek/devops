@@ -1,0 +1,9 @@
+On the Client:
+
+# puppet agent -t
+
+on the master
+
+# puppet cert list 
+
+# puppet cert sign clienthostname
