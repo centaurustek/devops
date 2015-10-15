@@ -1,5 +1,4 @@
 Installation of Puppet Master and Client on CentOS 6.6
-Posted on August 4, 2015 by uday7g
 Install latest versions of Puppet using Puppet Labs package repository on your correspondent CentOS versions
 
 # rpm -ivh http://yum.puppetlabs.com/puppetlabs-release-el-6.noarch.rpm
@@ -8,7 +7,7 @@ On the Master Server
 
 Set the hostname of the master server to puppet
 
-vi /etc/sysconfig/networks
+vi /etc/sysconfig/network
 
 hostname = puppet
 
@@ -24,7 +23,7 @@ On the Client Server
 
 Set the hostname of the master server to slave
 
-vi /etc/sysconfig/networks
+vi /etc/sysconfig/network
 
 hostname = puppet
 
