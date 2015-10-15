@@ -1,0 +1,12 @@
+cd /etc/puppet/modules
+#All the puppet code is in this directory
+
+mkdir (puppetcode name)
+example mkdir testfile
+
+cd testfile
+mkdir {files,templates,tests,manifests}
+
+cd manifests
+vim init.pp    # all your code/base would be in this file
+
