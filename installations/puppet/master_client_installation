@@ -40,5 +40,7 @@ vi /etc/puppet/puppet.conf
 add  the below line at the end of the file.
 
 server = puppet.localdomain
+#service iptbales stop
+  on both the machines 
 
 Establish Connection between master and Client:
