@@ -42,5 +42,11 @@ add  the below line at the end of the file.
 server = puppet.localdomain
 #service iptbales stop
   on both the machines 
+  
+# local DNS 
+vi /etc/hosts
+add 
+ip puppet puppet.localdomain
+example: 192.168.17.100 puppet puppet.localdomain
 
 Establish Connection between master and Client:
